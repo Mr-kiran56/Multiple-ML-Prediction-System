@@ -6,6 +6,6 @@ nltk
 opencv-python-headless
 matplotlib
 Pillow
-tensorflow==2.15.0  # Works with Python 3.9-3.11
+tensorflow==2.16.0  
 keras
 streamlit-option-menu
