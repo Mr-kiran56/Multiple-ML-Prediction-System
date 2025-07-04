@@ -1,6 +1,11 @@
-fastapi
-uvicorn
-pydantic
-pickle5
-scikit-learn
+streamlit
+pandas
 numpy
+scikit-learn
+nltk
+opencv-python-headless
+matplotlib
+Pillow
+tensorflow
+keras
+streamlit-option-menu
