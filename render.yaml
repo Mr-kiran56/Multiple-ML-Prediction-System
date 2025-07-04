@@ -1,6 +1,9 @@
 services:
   - type: web
-    name: wine-api
-    env: python
+    name: multiple-ml-prediction-system
+    runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn winetest:app --host 0.0.0.0 --port 10000
+    startCommand: streamlit run mainnew.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
