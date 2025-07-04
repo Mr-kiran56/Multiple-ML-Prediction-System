@@ -26,10 +26,10 @@ with st.sidebar:
     )
 
 # Load models and data
-book_data = pd.read_csv("B:\Streanlit\New folder\goodreads_data.csv")
-regressor = pickle.load(open("B:/Streanlit/New folder/newnewspredict.sav", 'rb'))
-tfidf_vectorizer = pickle.load(open("B:/Streanlit/New folder/tdfvecto.pkl", 'rb'))
-model = pickle.load(open("B:/Streanlit/New folder/minitsmodel.sav", 'rb'))
+book_data = pd.read_csv("goodreads_data.csv")
+regressor = pickle.load(open("newnewspredict.sav", 'rb'))
+tfidf_vectorizer = pickle.load(open("tdfvecto.pkl", 'rb'))
+model = pickle.load(open("minitsmodel.sav", 'rb'))
 
 # 📚 Book Recommendation System
 if selected == "📚 Books Recomendation":
