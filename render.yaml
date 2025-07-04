@@ -1,8 +1,1 @@
-services:
-  - type: web
-    name: multiple-ml-streamlit-app
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run newmain.py
-    runtime: python
-    plan: free
+
