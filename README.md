@@ -11,6 +11,8 @@ Proud to share a hands-on project I built using Python, Machine Learning, and St
 
 
 
+
+
  🔍 Powered by TF-IDF and Cosine Similarity, this feature gives personalized book suggestions based on your favorite titles, authors, genres, or even descriptions.
 
  Just type in what you love to read, and let the ML model do the magic! 📖✨
